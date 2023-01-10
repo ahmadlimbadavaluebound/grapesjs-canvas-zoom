@@ -1,0 +1,45 @@
+.gjs-zoomContainer {
+  position: absolute;
+  right: 0px;
+  width: 250px;
+  top: 112px;
+  z-index: 10;
+  padding: 2px 5px;
+  justify-content: space-between;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.gjs-zc-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn-zoom {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
+  cursor: pointer;
+  background-color: #10a5e5;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-zoom:hover {
+  background-color: #178fc7;
+}
+
+.gjs-zc-input-container {
+  width: 140px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.gjs-zc-input-container input {
+  cursor: default;
+}
