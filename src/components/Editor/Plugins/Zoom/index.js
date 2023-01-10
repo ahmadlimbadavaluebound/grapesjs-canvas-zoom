@@ -74,7 +74,7 @@ const ZoomComponent = ({ editor }) => {
         </button>
 
         <button
-          onClick={() => zoomLevel > 10 && setZoomLevel(zoomLevel - 1)}
+          onClick={() => zoomLevel > 1 && setZoomLevel(zoomLevel - 1)}
           className="btn-zoom"
         >
           <i class="fa fa-minus" aria-hidden="true"></i>
